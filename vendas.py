@@ -4,10 +4,10 @@ from datetime import date
 
 #conexão com o servidor
 conn = pyodbc.connect('Driver={SQL Server};'
-                        'Server=SQLATAK;'                      
-                        'Database=SATK;'
-                        'UID=User;'
-			            'PWD=Password;'                     
+                        'Server=SERVER;'                      
+                        'Database=DATA;'
+                        'UID=USER;'
+			'PWD=PASSWORD;'                     
                         'Trusted_Connection=yes;')
 cursor = conn.cursor()
 
